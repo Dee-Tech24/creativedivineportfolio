@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Page</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <style>
+        @font-face {
+            font-family: 'Argentum-Sans';
+            src: url(/dist/argentum-sans/ArgentumSans-SemiBold.ttf);
+        }
+        @font-face {
+            font-family: 'Argentum-Sans-Thin';
+            src: url(/dist/argentum-sans/ArgentumSans-Light.ttf);
+        }
+    </style>
+    <!-- a31425 -->
+</head>
+<body style="font-family: 'Argentum-Sans p-0 m-0';
+background:rgb(17, 17, 17)">
+ <!-- navigation bar -->
+ <nav class=" sticky flex justify-around bg-[#111111] h-[70px] shadow-xl shadow-black-900 ">
+    <img class="w-[100px] h-[120px] pb-6" src="/src/images/Logo.png" alt="my logo">
+     <ul class="flex h-full pt-9 text-white font-[Argentum-Sans] cursor-pointer">
+        <a href="#home"><li class="active:bg-[#a31425] active:underline poin">HOME</li></a>
+        <a href="#project"><li class=" active:bg-[#a31425] pl-4 active:underline">PROJECT</li></a>
+        <a href="#about"><li class="active:bg-[#a31425] pl-4 active:underline">ABOUT</li></a>
+        <a href="#footer"><li class="active:bg-[#a31425] pl-4 active:underline">CONTACT</li></a>
+     </ul>
+ </nav>
+
+       <!-- Landing page -->
+  <section id="home" class="px-[10%]  h-[100dvh] w-full  pt-[5em]">
+    <!-- top section -->
+   
+     <div class="flex  md:mt-0 items-center justify-center flex-row">
+        <div class=" md:pt-[10%] text-center font-['Argentum-Sans'] text-xl md:text-4xl text-white w-full">
+            <h5 class="md:text-3xl text-[#a31425] pb-4">Hello, I am Divine</h5>
+            <h1 class="text-3xl md:text-[3.5rem]">Web Developer</h1>
+            <p class=" font-['Argentum-Sans-Thin']  py-4 text-white opacity-50 text-sm md:text-3xl">I am a Web Developer, currently focusing on only Front-End section, I specialise mainly on HTML, CSS, JavaScript, React, Bootstrap, and Tailwind Css. Most of my projects were completed with the vanilla version of all of this web development languages.</p>
+            <a href="#about" class=""><button class="font-['Argentum-Sans'] text-[15px] hover:bg-[#111111] hover:border-[#a31425] hover:border  p-[0.2rem] px-4 bg-[#a31425]   shadow-[rgba(0,0,10)] ">ABOUT ME</button></a>
+
+        </div>
+     </div>
+  </section>
+  
+  
+  <div class="z[-1] absolute pr-[50px] py-[100vh] bg-[#181818] w-[50%] h-[50%]">
+</div>
+  
+<section id="project" class="z-1 relative m-10 md:m-40 text-white font-[Argentum-Sans]">
+    <div class=" ">
+        <div class="w-full flex flex-col md:flex-row  gap-6 md:gap-4">
+            <div class="flex-1 shadow-2xl hover:bg-[linear-gradient(135deg,#d71e25,#a31425)] bg-[#181818] py-20 px-2"> 
+                <div class="flex flex-col ">
+                <img class="w-[4rem] h-[5rem] " src="/src/images/icon1.svg"   alt"">
+                <h1 class="py-2">30 Days Javascript Project</h1>
+                <p class="w[20%]">I was involved in a 30 Days Javascript project after perfecting some part of my Javascript lessons.</p>
+                <a href="./30 DAYS JAVASCRIPT CHALLENGE.zip" download="JavaScript Challenge.zip"><p class="flex flex-row pr-1 py-2"> Download Here <img class="pl-1 w-8" src="/src/images/arrow-right.svg" alt=""></p></a>
+                </div>
+            </div>
+
+            <div class="flex-1 bg-[linear-gradient(135deg,#d71e25,#a31425)] hover:bg-[white] py-20 px-2"> 
+                <div class="flex flex-col">
+                <img class="w-[4rem] h-[5rem]" src="/src/images/icon2.svg"   alt"">
+                <h1 class="py-2">Portfolio Website</h1>
+                <p >I was involved in a website and i created a portfolio section for the organisation.</p>
+                <a href=""><p class="flex flex-row pr-1 py-2"> Know More <img class="pl-1 w-8" src="/src/images/arrow-right.svg" alt=""></p></a>
+                </div>
+            </div>
+
+            <div class="flex-1 hover:bg-[linear-gradient(135deg,#d71e25,#a31425)] bg-[#181818] py-20 px-2"> 
+                <div class="flex flex-col">
+                <img class="w-[4rem] h-[5rem]" src="/src/images/icon3.svg"   alt"">
+                <h1 class="py-2">Styling Challenge</h1>
+                <p>I was tasked with the project of creating visual compeling websites with vanilla css.</p>
+                <a href="./Github Works.zip" download="Styling Projects.zip"><p class="flex flex-row pr-1 py-2"> Download Here <img class="pl-1 w-8" src="/src/images/arrow-right.svg" alt=""></p></a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Experience Section -->
+    <section id="about" class="section1 flex flex-col md:flex-row z-1 relative m-40  font-[Argentum-Sans] justify-between items-center text-[#a31425] gap-6">
+        <div class="justify-center">
+            <h1 class="text-[150px] text-center md:m-15">
+                3
+            </h1>
+            <p class="text-2xl text-white font-[Argentum-Sans] text-center">Years Experience</p>
+        </div>
+       
+       <div class="section2 ">
+        <div class=" shadow-xl flex flex-col md:flex-row gap-4 text-center p-4">
+            <div class="bg-[#181818] p-20">
+                <h1 class="text-center text-5xl">3+</h1>
+                <p  class="text-center text-white">Clients</p>
+            </div>
+            <div class="bg-[#181818] p-20">
+                 <h1 class="text-center text-5xl">3+</h1>
+                <p class="text-center text-white">Years Experience</p>
+            </div>
+        </div>
+        
+        <div class="shadow-xl flex flex-col md:flex-row gap-4 p-4">
+            <div class="bg-[#181818] p-20">
+                 <h1 class="text-center text-5xl">20+</h1>
+                <p class="text-center text-white">Completed Projects</p>
+            </div>
+            <div class="bg-[#181818] p-20">
+                 <h1 class="text-center text-5xl">20+</h1>
+                <p class="text-center text-white">Achievements</p>
+            </div>
+        </div>
+    </div>
+      </section>
+
+
+  </section>
+ 
+  <section id="footer" class="footer ">
+  <div class="z[-1] absolute pr-[50px] py-[50vh] md:py-[20vh] bg-[#181818] w-full ">
+</div>
+
+<div class="z-[1] relative flex flex-col md:flex-row gap-8 pt-[7rem]  p-20 md:pl-40 md:items-center text-white font-[Argentum-Sans] ">
+    <div class="items-center w-full md:w-[50%]">
+        <h1 class="text-4xl">Lets Work Together On Your Next Project</h1>
+        <p class="font-[Argentum-Sans-Thin]">Your Next Project Would Would Need Front-End developer And Thats Where I Come In.</p>
+    </div>
+    <div class="md:w-50%  pl-0 pt-10 md:pt-0 md:pl-40"> 
+        <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsLSDXTbmFDLVvsslzMlPVqCrZkwFSdCjzVwBfmgrBbczWdFhfltnvHmNQlCQZmtBxcDSZRB"> <button class="hover:bg-[#111111] hover:border-[#a31425] hover:border font-['Argentum-Sans'] text-[15px]  p-[0.7rem] px-10 md:px-4 bg-[#a31425]  shadow-[rgba(0,0,10)] ">Contact</button></a>
+   </div>
+</div>
+
+</section>
+ 
+
+</body>
+</html> 
